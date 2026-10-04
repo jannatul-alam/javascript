@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Skill Studio | Workshop Registration</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header><h1>Campus Skill Studio</h1><p>Learn, build and collaborate</p></header>
+  <main>
+    <section class="panel">
+      <h2>Creative Web Skills Workshop</h2>
+      <p>Explore practical website building with fellow students.</p>
+      <p><strong>Venue:</strong> SEU Innovation Room</p>
+      <p><strong>Date:</strong> 18 October 2026</p>
+      <button type="button" onclick="displayEnrollment()">View Enrollment Status</button>
+      <p id="enrollmentOutput">Enrollment information will appear here.</p>
+      <button type="button" onclick="displayCapacity()">See Remaining Places</button>
+      <p id="capacityOutput">Click to see the current seat count.</p>
+      <button type="button" onclick="displayReminder()">Workshop Reminder</button>
+      <p id="reminderOutput">A helpful reminder will appear here.</p>
+    </section>
+    <section class="panel">
+      <h2>Participant Details</h2>
+      <form>
+        <label for="participantFullName">Full Name</label>
+        <input id="participantFullName" name="fullName" type="text" required>
+        <label for="participantEmail">Email</label>
+        <input id="participantEmail" type="email" name="email">
+        <button type="button" onclick="displayPersonalNote()">Show Personal Greeting</button>
+        <p id="personalOutput" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer>Campus Skill Studio | Student Learning Initiative</footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

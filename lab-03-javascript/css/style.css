@@ -1,0 +1,7 @@
+body {font-family: Arial, sans-serif; background:#f3f6fb; color:#20314a; margin:0}
+header,footer {background:#18365d; color:white; text-align:center; padding:18px}
+main {max-width:800px; margin:25px auto; padding:0 15px}
+.panel {background:white; padding:23px; margin-bottom:18px; border-radius:12px; box-shadow:0 3px 12px #dce4ef}
+button {background:#1967a5; color:white; border:0; padding:10px 13px; border-radius:6px; margin:7px 0; cursor:pointer}
+label {display:block; margin:12px 0 4px}
+input {display:block; width:95%; padding:10px; border:1px solid #aabbd1; border-radius:5px}
